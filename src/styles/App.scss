@@ -1,0 +1,60 @@
+.close span
+{
+	font-size: 1.5rem !important;
+}
+
+.modal-open
+{
+	padding: 0px !important;
+}
+
+.base {
+  background-color: #bdbfc2;
+  min-height: 100vh;
+}
+
+.header
+{
+	background-color: #282c34;
+	color: white;
+	height: 40px;
+}
+
+.app.nav-link
+{
+	&:hover
+	{
+		background: rgba(255, 255, 255, 0.596);
+	}
+	&.active
+	{
+		color: black;
+		background: rgba(255, 255, 255, 0.596);
+	}
+}
+
+.main
+{
+	margin-top: 40px;
+	padding: 8px 16px;
+}
+
+.item
+{
+	max-width: 40px;
+	max-height: 40px;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+table.vertical-center td
+{ 
+	vertical-align: middle;
+}
